@@ -121,7 +121,7 @@ const getTracks = async (artist) => {
 function spotifyAuth() {
   //Application ID for Spotify
   var client_id = "c606a7901ceb4201a0fd0ae55d3b4831";
-  var redirect_uri = "http://127.0.0.1:5500/";
+  var redirect_uri = "bogartdme.github.io/crowd-surf-music-app/";
 
   //Permissions
   var scope = "user-read-private user-read-email";
